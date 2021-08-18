@@ -8,11 +8,12 @@ public class test : MonoBehaviour
     void Start()
     {
         Debug.Log("aaa");
+        a = 5;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(a);
     }
 }
